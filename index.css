@@ -8,6 +8,7 @@ button {
     width: 90px;
     height: 90px;
     border: solid 2px #000000;
+    border-radius: 4px;
 }
 #equal {
     width: 90px;
