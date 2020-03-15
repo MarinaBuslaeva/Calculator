@@ -1,5 +1,5 @@
 body {
-    background: rgb (210, 105, 30);
+    background: rgb(210, 105, 30);
     font-family: monospace;
     font-size: 30px;
     margin: auto;
@@ -7,6 +7,6 @@ body {
 }
 #reticulum {
     margin: auto;
-    border: 15px solid rgb (112, 128, 144);
+    border: 15px solid rgb(112, 128, 144);
     padding: 5px;
 }
