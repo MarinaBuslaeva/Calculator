@@ -20,15 +20,16 @@ button {
     height: 90px;
     padding: 10px;
 }
+.screen {
+    width: 400px;
+    height: 60px;
+    background-color: #A9A9A9;
+    border: solid 5px #000000;
+}
 .reticulum {
     border: solid 15px #A0522D;
     align: center;
     width: 500px;
     height: 800px;
 }
-.screen {
-    width: 400px;
-    height: 60px;
-    background-color: #A9A9A9;
-    border: solid 10px #000000;
-}
+
