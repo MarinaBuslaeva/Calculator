@@ -23,8 +23,7 @@ button {
 .reticulum {
     margin-left: 30%;
     margin-right: 30%;
-    border: 20px;
-    border-color: #A0522D;
+    border: solid 20px #A0522D;
 }
 .screen {
     width: 150px;
