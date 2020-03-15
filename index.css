@@ -21,7 +21,8 @@ button {
     padding: 10px;
 }
 .reticulum {
-    margin: auto;
+    margin-left: 30%;
+    margin-right: 30%;
     padding: 20px #A0522D;
 }
 .screen {
