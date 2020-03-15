@@ -9,6 +9,13 @@ button {
     width: 90px;
     height: 90px;
 }
-
+#equal {
+    width: 90px;
+    height: 120px;
+}
+#zero {
+    width: 120px;
+    height: 90px;
+}
 #reticulum {
 }
