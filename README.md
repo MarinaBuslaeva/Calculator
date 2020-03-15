@@ -1,1 +1,1 @@
-Простой калькулятор
+https://marinabuslaeva.github.io/Calculator/
