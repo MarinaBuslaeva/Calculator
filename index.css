@@ -27,8 +27,8 @@ button {
     height: 800px;
 }
 .screen {
-    width: 120px;
-    height: 30px;
+    width: 400px;
+    height: 60px;
     background-color: #A9A9A9;
     border: solid 10px #000000;
 }
