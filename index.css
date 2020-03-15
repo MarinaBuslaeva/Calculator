@@ -5,12 +5,13 @@ body {
     margin: auto;
     height: 100%;
 }
+[button] {
+    weight: 30px;
+    height: 30px;
+}
+
 #reticulum {
     margin: auto;
     border: 15px solid rgb(112, 128, 144);
     padding: 5px;
-}
-[button] {
-    weight: 30px;
-    height: 30px;
 }
