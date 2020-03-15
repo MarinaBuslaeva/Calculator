@@ -9,6 +9,7 @@ button {
     height: 90px;
     border: solid 2px #000000;
     border-radius: 6px;
+    font: bold 20px monospace;
 }
 #equal {
     width: 90px;
@@ -24,6 +25,7 @@ button {
     background-color: #A9A9A9;
     border: solid 5px #000000;
     border-radius: 6px;
+    font: bold 20px monospace;
 }
 .reticulum {
     margin-left: 30%;
