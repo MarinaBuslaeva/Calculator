@@ -8,14 +8,21 @@ body {
 button {
     width: 90px;
     height: 90px;
+    padding: 10px;
 }
 #equal {
     width: 90px;
     height: 180px;
+    padding: 10px;
 }
 #zero {
     width: 180px;
     height: 90px;
+    padding: 10px;
 }
-#reticulum {
+.reticulum {
+    aligne: center;
+    margin: auto;
+    padding: 20px;
+    padding-color: #A0522D;
 }
