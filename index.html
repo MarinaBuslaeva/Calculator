@@ -51,30 +51,47 @@ var C = document.getElementById("C");
 var CE = document.getElementById("CE");
 var equal = document.getElementById("equal");
 
+	
+	
 for (var i=0; i<numbers.length; i++) {
 	var number = numbers[i];
-	number.addEventListener('click', function (e) {
+	number.addEventListener('click', numberPress) {
 		console.log("Клик по кнопке с номером");
 	});
 };
-	for (var i=0; i<operations.length; i++) {
+for (var i=0; i<operations.length; i++) {
 	var operation = operations[i];
-	operation.addEventListener('click', function (e) {
+	operation.addEventListener('click', compIt) {
 		console.log("Клик по кнопке с операцией");
 	});
 };
-comma.addEventListener('click', function (e) {
+comma.addEventListener('click', decimal) {
 	console.log("Клик по кнопке с запятой");
 	});
-C.addEventListener('click', function (e) {
+C.addEventListener('click', clear) {
 	console.log("Клик по кнопке С");
 	});
-CE.addEventListener('click', function (e) {
+CE.addEventListener('click', clear) {
 	console.log("Клик по кнопке СE");
 	});
 equal.addEventListener('click', function (e) {
 	console.log("Клик по кнопке равно");
 	});
+
+	
+	
+function numberPress () {
+	console.log("Клик по кнопке с номером");
+};
+function compIt () {
+	console.log("Клик по кнопке с операцией");
+};
+function decimal () {
+	console.log("Клик по кнопке с запятой");
+};
+function clear () {
+	console.log("Клик по кнопке очистить");
+};
     </script>
 </body>
 </html>
