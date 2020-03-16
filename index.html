@@ -47,6 +47,7 @@
 var numbers = document.querySelectorAll('.number');
 var operations = document.querySelectorAll(".operation");
 var comma = document.getElementById("comma");
+var clearBtns  document.querySelectorAll(".clear_btn");
 var C = document.getElementById("C");
 var CE = document.getElementById("CE");
 var equal = document.getElementById("equal");
@@ -65,35 +66,17 @@ for (var i=0; i<operations.length; i++) {
 		console.log("Клик по кнопке с операцией");
 	
 };
-C.addEventListener('click', function (e)) {
+for (var i=0; i<clearBtns.length; i++) {
+	var clear_btn = clearBtns[i];
+	clear_btn.addEventListener('click', function(e))
 	console.log(e.srcElement.id);
-	console.log("Клик по кнопке С");
-	};
-comma.addEventListener('click', decimal) {
-	console.log("Клик по кнопке с запятой");
-	};
-
-CE.addEventListener('click', clear) {
-	console.log("Клик по кнопке СE");
-	};
-equal.addEventListener('click', function (e) {
-	console.log("Клик по кнопке равно");
-	};
-
+	console.log("Клик по кнопке с CE или С");
 	
-	
-function numberPress () {
-	console.log("Клик по кнопке с номером");
 };
-function compIt () {
-	console.log("Клик по кнопке с операцией");
-};
-function decimal () {
-	console.log("Клик по кнопке с запятой");
-};
-function clear () {
-	console.log("Клик по кнопке очистить");
-};
+
+
+
+
     </script>
 </body>
 </html>
