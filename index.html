@@ -11,8 +11,8 @@
 <div><table>
 <tr></tr>
 <tr>
-    <td><button class"clear_btn" id="C">C</button></td>
-    <td><button class"clear_btn"id="CE">C/E</button></td>
+    <td><button class"clearBtn" id="C">C</button></td>
+    <td><button class"clearBtn"id="CE">C/E</button></td>
     <td><button class="operation">*</button></td>
     <td><button class="operation">/</button></td>
     </tr>
@@ -47,7 +47,7 @@
 var numbers = document.querySelectorAll('.number');
 var operations = document.querySelectorAll(".operation");
 var comma = document.getElementById("comma");
-var clearBtns  document.querySelectorAll(".clear_btn");
+var clearBtns  document.querySelectorAll(".clearBtn");
 var C = document.getElementById("C");
 var CE = document.getElementById("CE");
 var equal = document.getElementById("equal");
@@ -67,8 +67,8 @@ for (var i=0; i<operations.length; i++) {
 	
 };
 for (var i=0; i<clearBtns.length; i++) {
-	var clear_btn = clearBtns[i];
-	clear_btn.addEventListener('click', function(e))
+	var clearBtn = clearBtns[i];
+	clearBtn.addEventListener('click', function(e))
 	console.log(e.srcElement.id);
 	console.log("Клик по кнопке с CE или С");
 	
